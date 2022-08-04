@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+.main {
+  height: 80vh;
+  text-justify: center;
+  text-align: center;
+}
+.navbar {
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+}
+.navbar p {
+  margin: 15px;
+}
+.logo {
+  padding: 10px;
+}
+img {
+  width: 80%;
+  height: 80%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: blue;
+}
